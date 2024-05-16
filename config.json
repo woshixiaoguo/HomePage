@@ -11,24 +11,19 @@
 		"background": true,
 		"ul": {
 			"first": {
-				"href": "blog.guoguo.host",
+				"href": "http://blog.guoguo.host",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "docs.guoguo.host",
+				"href": "http://docs.guoguo.host",
 				"icon": "xiaolian",
 				"text": "Docs"
 			},
 			"third": {
-				"href": "mailto:simon@tomotoes.com",
+				"href": "mailto:isguohr@outlook.com",
 				"icon": "email",
 				"text": "Email"
-			},
-			"fourth": {
-				"href": "https://github.com/tomotoes",
-				"icon": "github",
-				"text": "Github"
 			}
 		}
 	}
