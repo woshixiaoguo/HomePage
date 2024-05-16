@@ -1,34 +1,24 @@
 {
 	"head": {
-		"title": "一个坏掉的番茄",
-		"description": "Author:SimonMa,Category:Personal Blog",
+		"title": "Guoguo",
+		"description": "Author:Guoguo,Category:Personal Blog",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "Simon Ma",
-		"subtitle": "Front back left right end engineer",
-		"enter": "enter",
-		"supportAuthor": true,
-		"background": true
-	},
-	"main": {
-		"name": "Simon Ma",
-		"signature": "Code & Input & Output",
-		"avatar": {
-			"link": "assets/avatar.jpg",
-			"height": "100",
-			"width": "100"
-		},
+		"title": "Guoguo",
+		"subtitle": "Tomorrow never comes.",
+		"supportAuthor": false,
+		"background": true,
 		"ul": {
 			"first": {
-				"href": "blog/",
+				"href": "blog.guoguo.host",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "about/",
+				"href": "docs.guoguo.host",
 				"icon": "xiaolian",
-				"text": "About"
+				"text": "Docs"
 			},
 			"third": {
 				"href": "mailto:simon@tomotoes.com",
