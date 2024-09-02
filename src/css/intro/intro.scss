@@ -3,19 +3,6 @@
 	user-select: none;
 }
 
-.shape {
-	height: 100vh;
-	width: 100%;
-	display: block;
-	fill: var(--color-content);
-	&-wrap {
-		position: relative;
-		z-index: 10;
-		margin: -5px 0 0 0;
-		will-change: scroll-position;
-	}
-}
-
 .content-title {
 	font-family: "Comic Sans MS", "Helvetica Neue", "Microsoft Yahei",
 		-apple-system, sans-serif;

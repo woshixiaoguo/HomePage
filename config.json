@@ -11,12 +11,12 @@
 		"background": true,
 		"ul": {
 			"first": {
-				"href": "http://blog.guoguo.host",
+				"href": "https://blog.guoguo.host",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "http://docs.guoguo.host",
+				"href": "https://docs.guoguo.host",
 				"icon": "xiaolian",
 				"text": "Docs"
 			},
