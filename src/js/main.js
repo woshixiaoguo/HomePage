@@ -157,4 +157,5 @@ if (isPhone) {
 		},
 		{ passive: true }
 	);
+	document.querySelector(".wrap").style.height = "60vh";
 }
