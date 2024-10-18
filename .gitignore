@@ -1,5 +1,4 @@
 node_modules/
-dist/
 
 logs
 *.log
@@ -69,3 +68,7 @@ typings/
 
 # next.js build output
 .next
+.DS_Store
+dist
+src/font_efg8fcr6usj/
+

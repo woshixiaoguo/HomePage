@@ -1,45 +1,69 @@
 {
 	"head": {
-		"title": "一个坏掉的番茄",
-		"description": "Author:SimonMa,Category:Personal Blog",
+		"title": "Guoguo",
+		"description": "Author:Guoguo,Category:Personal Blog",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "Simon Ma",
-		"subtitle": "Front back left right end engineer",
-		"enter": "enter",
-		"supportAuthor": true,
-		"background": true
-	},
-	"main": {
-		"name": "Simon Ma",
-		"signature": "Code & Input & Output",
-		"avatar": {
-			"link": "assets/avatar.jpg",
-			"height": "100",
-			"width": "100"
-		},
+		"title": "Guoguo",
+		"subtitle": "Tomorrow never comes.",
+		"background": true,
 		"ul": {
 			"first": {
-				"href": "blog/",
-				"icon": "bokeyuan",
+				"href": "https://blog.guoguo.host",
+				"icon": "special_effects",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "about/",
-				"icon": "xiaolian",
-				"text": "About"
+				"href": "https://docs.guoguo.host",
+				"icon": "handbook",
+				"text": "Docs"
 			},
 			"third": {
-				"href": "mailto:simon@tomotoes.com",
-				"icon": "email",
-				"text": "Email"
+				"href": "http://book.guoguo.host",
+				"icon": "book",
+				"text": "Book"
 			},
 			"fourth": {
-				"href": "https://github.com/tomotoes",
-				"icon": "github",
-				"text": "Github"
+				"href": "mailto:isguohr@outlook.com",
+				"icon": "express",
+				"text": "Email"
 			}
+		},
+		"target": "_blank"
+	},
+	"scripts": {
+		"fluidEnhanced": {
+			"SIM_RESOLUTION": 128,
+			"DYE_RESOLUTION": 1024,
+			"CAPTURE_RESOLUTION": 512,
+			"DENSITY_DISSIPATION": 1,
+			"VELOCITY_DISSIPATION": 0.2,
+			"PRESSURE": 0.8,
+			"PRESSURE_ITERATIONS": 20,
+			"CURL": 30,
+			"INITIAL": true,
+			"SPLAT_AMOUNT": 5,
+			"SPLAT_RADIUS": 0.25,
+			"SPLAT_FORCE": 6000,
+			"SPLAT_KEY": "Space",
+			"SHADING": true,
+			"COLORFUL": true,
+			"COLOR_UPDATE_SPEED": 10,
+			"COLOR_PALETTE": [],
+			"HOVER": true,
+			"BACK_COLOR": "#000000",
+			"TRANSPARENT": false,
+			"BRIGHTNESS": 0.5,
+			"BLOOM": true,
+			"BLOOM_ITERATIONS": 8,
+			"BLOOM_RESOLUTION": 256,
+			"BLOOM_INTENSITY": 0.8,
+			"BLOOM_THRESHOLD": 0.6,
+			"BLOOM_SOFT_KNEE": 0.7,
+			"SUNRAYS": true,
+			"SUNRAYS_RESOLUTION": 196,
+			"SUNRAYS_WEIGHT": 1.0
 		}
 	}
 }

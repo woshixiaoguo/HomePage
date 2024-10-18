@@ -9,8 +9,9 @@ const babel = require("gulp-babel");
 const autoprefixer = require("gulp-autoprefixer");
 const connect = require("gulp-connect");
 const pug = require("gulp-pug");
+// const sass = require('gulp-sass')
 const sass = require("gulp-sass")(require("node-sass"));
-// sass.compiler = require('node-sass')
+// sass.compiler = require("node-sass");
 
 const config = require("./config.json");
 
@@ -66,6 +67,6 @@ gulp.task("watch", function () {
 	connect.server({
 		root: "dist",
 		livereload: true,
-		port: 8000,
+		port: 9000,
 	});
 });
