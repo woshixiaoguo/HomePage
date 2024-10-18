@@ -20,11 +20,17 @@
 				"text": "Docs"
 			},
 			"third": {
+				"href": "http://book.guoguo.host",
+				"icon": "book",
+				"text": "Book"
+			},
+			"fourth": {
 				"href": "mailto:isguohr@outlook.com",
 				"icon": "express",
 				"text": "Email"
 			}
-		}
+		},
+		"target": "_blank"
 	},
 	"scripts": {
 		"fluidEnhanced": {
