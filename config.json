@@ -8,6 +8,7 @@
 		"title": "Guoguo",
 		"subtitle": "Tomorrow never comes.",
 		"background": true,
+		"supportAuthor": true,
 		"ul": {
 			"first": {
 				"href": "https://blog.guoguo.host",
