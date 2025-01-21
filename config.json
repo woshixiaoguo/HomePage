@@ -11,17 +11,17 @@
 		"supportAuthor": true,
 		"ul": {
 			"first": {
-				"href": "https://blog.guoguo.host",
+				"href": "https://guoguo.host/blog/",
 				"icon": "special_effects",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "https://docs.guoguo.host",
+				"href": "https://guoguo.host/docs/",
 				"icon": "handbook",
 				"text": "Docs"
 			},
 			"third": {
-				"href": "http://book.guoguo.host",
+				"href": "http://guoguo.host/book/",
 				"icon": "book",
 				"text": "Book"
 			},
