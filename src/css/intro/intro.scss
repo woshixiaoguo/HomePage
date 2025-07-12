@@ -4,8 +4,12 @@
 }
 
 .content-title {
-	font-family: "Comic Sans MS", "Helvetica Neue", "Microsoft Yahei",
-		-apple-system, sans-serif;
+	font-family:
+		"Comic Sans MS",
+		"Helvetica Neue",
+		"Microsoft Yahei",
+		-apple-system,
+		sans-serif;
 	font-size: 4.7rem;
 	font-weight: 200;
 	color: var(--color-title);
@@ -13,8 +17,11 @@
 	margin-top: 0.8em;
 	margin-bottom: 0.3em;
 	animation: whiteShadow 1.5s ease-in-out infinite alternate;
-	text-shadow: rgb(69, 45, 45) 0 0 1px, rgb(255, 255, 251) 0 0 1px,
+	text-shadow:
+		rgb(69, 45, 45) 0 0 1px,
+		rgb(255, 255, 251) 0 0 1px,
 		rgb(255, 255, 251) 0 0 2px;
+
 	@media screen and (max-width: 50em) {
 		font-size: 2rem;
 	}
@@ -22,19 +29,38 @@
 
 @keyframes whiteShadow {
 	from {
-		text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 5px #333,
-			0 0 8px #333, 0 0 9px #333, 0 0 10px #333, 0 0 15px #333;
+		text-shadow:
+			0 0 1px #fff,
+			0 0 2px #fff,
+			0 0 3px #fff,
+			0 0 5px #333,
+			0 0 8px #333,
+			0 0 9px #333,
+			0 0 10px #333,
+			0 0 15px #333;
 	}
+
 	to {
-		text-shadow: 0 0 0.5px #fff, 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2px #333,
-			0 0 4px #333, 0 0 5px #333, 0 0 6px #333, 0 0 8px #333;
+		text-shadow:
+			0 0 0.5px #fff,
+			0 0 1px #fff,
+			0 0 1.5px #fff,
+			0 0 2px #333,
+			0 0 4px #333,
+			0 0 5px #333,
+			0 0 6px #333,
+			0 0 8px #333;
 	}
 }
 
 .content-subtitle {
 	color: #fff;
-	font-family: "Comic Sans MS", "Helvetica Neue", "Microsoft Yahei",
-		-apple-system, sans-serif;
+	font-family:
+		"Comic Sans MS",
+		"Helvetica Neue",
+		"Microsoft Yahei",
+		-apple-system,
+		sans-serif;
 	font-size: 1.2rem;
 	font-weight: 200;
 	margin-bottom: 2em;
@@ -66,13 +92,16 @@
 		opacity: 0;
 		text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
 	}
+
 	66% {
 		opacity: 1;
 		text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 	}
+
 	77% {
 		opacity: 1;
 	}
+
 	100% {
 		opacity: 0.7;
 		text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -80,6 +109,7 @@
 }
 
 $signatureLength: 38;
+
 @for $i from 1 through $signatureLength {
 	.content-subtitle span:nth-child(#{$i}) {
 		animation-delay: 0.05s * $i;
@@ -102,7 +132,9 @@ $signatureLength: 38;
 	align-items: center;
 
 	text-align: center;
-	transition: width ease 0.5s, height ease 0.5s;
+	transition:
+		width ease 0.5s,
+		height ease 0.5s;
 
 	.card-inner {
 		padding: 0;
@@ -152,18 +184,72 @@ $signatureLength: 38;
 				height: 100%;
 				border-left: solid 0.1px hsla(0, 0%, 100%, 0.1);
 				border-right: solid 0.1px hsla(0, 0%, 100%, 0.1);
+
 				a {
 					color: #b6b6b6;
 					transition: all 0.2s;
+
 					&:hover {
 						color: #f6f6f6;
 						text-shadow: 0 0 2px #f6f6f6;
 					}
 				}
+
 				&:hover {
 					transform: translateY(-2px);
 				}
 			}
 		}
+	}
+}
+
+$youtube-red: #ff0000;
+$text-color: #b6b6b6;
+$bg-color: transparent;
+$border-color: transparent;
+$hover-bg-color: rgba(0, 0, 0, 0.05);
+$transition-speed: 0.3s;
+
+// YouTube Channel Link Component
+.youtube-channel-link {
+	display: inline-block;
+	margin: 10px 0;
+
+	a {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: $text-color;
+		padding: 8px 12px;
+		border-radius: 6px;
+		transition: all $transition-speed ease;
+		background-color: $bg-color;
+		border: 1px solid $border-color;
+
+		&:hover {
+			color: #f6f6f6;
+			text-shadow: 0 0 2px #f6f6f6;
+			background-color: $hover-bg-color;
+			transform: translateY(-2px);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	.youtube-icon {
+		margin-right: 8px;
+		display: flex;
+		align-items: center;
+	}
+
+	.channel-name {
+		font-weight: 500;
+		font-size: 16px;
+	}
+
+	// Alternative styles for Font Awesome version
+	.fab.fa-youtube {
+		color: $youtube-red;
+		font-size: 24px;
+		margin-right: 8px;
 	}
 }

@@ -31,7 +31,14 @@
 				"text": "Email"
 			}
 		},
-		"target": "_blank"
+		"target": "_blank",
+		"youtube_channel": {
+			"switch": false,
+			"info": {
+				"link": "https://www.youtube.com/",
+				"name": "Herron Kuo"
+			}
+		}
 	},
 	"scripts": {
 		"fluidEnhanced": {
